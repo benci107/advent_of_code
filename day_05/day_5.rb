@@ -17,10 +17,10 @@ def string_to_code(string, test)
     test
 end
 
-File.open("day_5/input_data_2.txt") do |f|
+File.open("day_05/input_data_2.txt") do |f|
     moves<< f.readlines
 end
-File.open("day_5/input_data.txt") do |f|
+File.open("day_05/input_data.txt") do |f|
     lines = f.readlines
     lines.each do |s|
         ary<< s.split('')
